@@ -1,0 +1,420 @@
+<!--
+  ======================================================================
+  INSTITUCIÓN: CBTis 166 Pablo Torres Burgos
+  ----------------------------------------------------------------------
+  * Estudiante: Estrada Flores Victor Ismael
+  * Grupo: 3B PRO VESP  
+  * Actividad: Portal Institucional (Con barra superior, collage y formulario)
+  ====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanium Fitness & Sports Academy - Portal Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR DE CONTACTO -->
+    <div class="top-bar" id="inicio">
+        <div class="top-bar-container">
+            <div class="top-contacts">
+                <span class="top-item">📞 734 000 0000</span>
+                <span class="top-item whatsapp">💬 Escríbenos por <strong>WhatsApp</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#inicio">
+                    <img src="img/logo.jpg" alt="Titanium Academy" class="brand-logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#oferta">Disciplinas</a>
+                <a href="login.html" class="btn-nav-login">Atletas</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON COLLAGE DE IMÁGENES -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos, Botón y Beneficios -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡INSCRIPCIONES ABIERTAS!</span>
+                <h1>Centro de Alto Rendimiento Deportivo y Bienestar</h1>
+                <p>Transforma tu condición física y mental con programas 100% prácticos, entrenadores certificados y atletas de alto nivel en nuestro complejo deportivo "Titanium Gym & Sports".</p>
+                
+                <div class="hero-cta-box">
+                    <a href="login.html" class="btn-orange">Solicita informes →</a>
+                    <div class="hero-benefits">
+                        <span>✓ Certificación de entrenamiento directo</span>
+                        <span>✓ Membresías accesibles</span>
+                        <span>✓ Entrenamientos en áreas equipadas</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Collage de Imágenes -->
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80" alt="Entrenamiento Fitness">
+                    </div>
+                    <div class="collage-sub">
+                        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=300&q=80" alt="Artes Marciales">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=300&q=80" alt="Gimnasio">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE OFERTA DE DISCIPLINAS CON IMÁGENES ALUSIVAS -->
+    <section id="oferta" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Nuestras 4 Disciplinas Principales</h2>
+                <p>Elige tu especialidad deportiva y prepárate profesionalmente con nosotros</p>
+            </div>
+
+            <div class="careers-grid">
+                
+                <!-- Disciplina 1 -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=500&q=80" alt="Musculación y CrossFit">
+                    </div>
+                    <div class="career-content">
+                        <h3>Musculación y CrossFit</h3>
+                        <p>Diseña, planifica y ejecuta rutinas de hipertrofia y fuerza funcional con técnicas de entrenamiento de alta intensidad y nutrición deportiva.</p>
+                    </div>
+                </div>
+
+                <!-- Disciplina 2 -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=500&q=80" alt="Artes Marciales">
+                    </div>
+                    <div class="career-content">
+                        <h3>Artes Marciales Mixtas</h3>
+                        <p>Aprende disciplinas de combate como Jiujitsu, Boxeo y Muay Thai, desarrollando agilidad, disciplina y autodefensa profesional.</p>
+                    </div>
+                </div>
+
+                <!-- Disciplina 3 -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=500&q=80" alt="Yoga y Bienestar">
+                    </div>
+                    <div class="career-content">
+                        <h3>Yoga & Mindfulness</h3>
+                        <p>Domina técnicas de flexibilidad, alineación corporal y meditación consciente para potenciar la conexión mente-cuerpo y reducir el estrés.</p>
+                    </div>
+                </div>
+
+                <!-- Disciplina 4 -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=500&q=80" alt="Nutrición Deportiva">
+                    </div>
+                    <div class="career-content">
+                        <h3>Nutrición Deportiva</h3>
+                        <p>Domina planes de alimentación personalizada, suplementación e hidratación estratégica para optimizar el rendimiento atlético.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE COACHES/ENTRENADORES CON RECORRIDO INTERACTIVO (JS) -->
+    <section class="teachers-section">
+        <div class="teachers-container">
+            
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag">¿QUIÉN TE ENTRENA EN TITANIUM ACADEMY?</span>
+                    <h2>Nuestra Plantilla de Coaches</h2>
+                    <p>Los entrenadores de nuestra academia son atletas activos y profesionales certificados. Utiliza los botones para recorrer el equipo completo:</p>
+                </div>
+                <!-- Botones funcionales con IDs -->
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn">‹</button>
+                    <button id="btn-next" class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <!-- Contenedor de las tarjetas de coaches (controlado por JS) -->
+            <div class="teachers-grid" id="teachers-track">
+                
+                <!-- Grupo 1 -->
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=400&q=80" alt="Coach de Musculación">
+                    <div class="teacher-info">
+                        <h3>Coach Marcus Hill</h3>
+                        <p>Especialista en Acondicionamiento Físico, Hipertrofia y Entrenamiento Funcional de Alto Rendimiento.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=400&q=80" alt="Coach de Yoga">
+                    <div class="teacher-info">
+                        <h3>Mtra. Elena Rostova</h3>
+                        <p>Especialista en Yoga Holístico, Flexibilidad Avanzada y Rehabilitación Deportiva.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=400&q=80" alt="Coach de Artes Marciales">
+                    <div class="teacher-info">
+                        <h3>Prof. Carlos "Toro" Silva</h3>
+                        <p>Cinturón Negro en BJJ, Entrenador de Kickboxing y Preparador Físico de Combate.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="Nutricionista Deportivo">
+                    <div class="teacher-info">
+                        <h3>Dr. Fernando Ríos</h3>
+                        <p>Especialista en Nutrición Deportiva, Composición Corporal y Fisiología del Ejercicio.</p>
+                    </div>
+                </div>
+
+                <!-- Grupo 2 -->
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=400&q=80" alt="Coordinadora Deportiva">
+                    <div class="teacher-info">
+                        <h3>Lic. Sofía Morales</h3>
+                        <p>Coordinadora de Metodología Deportiva y Evaluaciones Biomecánicas.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80" alt="Coach de Calistenia">
+                    <div class="teacher-info">
+                        <h3>Ing. Carlos Mendoza</h3>
+                        <p>Especialista en Calistenia, Biomecánica Aplicada y Control de Cargas de Entrenamiento.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=400&q=80" alt="Fisioterapeuta">
+                    <div class="teacher-info">
+                        <h3>Dra. Laura Sánchez</h3>
+                        <p>Coordinadora de Prácticas en Fisioterapia y Recuperación Muscular.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?auto=format&fit=crop&w=400&q=80" alt="Coach de Fuerza">
+                    <div class="teacher-info">
+                        <h3>Coach Alejandro Vega</h3>
+                        <p>Especialista en Halterofilia, Potencia Máxima y Desarrollo de Fuerza Atlética.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON FORMULARIO INTEGRADO -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos y Beneficios -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡INSCRIPCIONES ABIERTAS!</span>
+                <h1 class="hero-title-custom">¿Tienes dudas?</h1>
+                <p class="hero-desc-custom">
+                    Déjanos tus datos y te contactaremos para ayudarte a elegir el programa deportivo o disciplina de tu interés en Titanium Academy.
+                </p>
+                
+                <div class="hero-subtitle-custom">
+                    Conoce todo sobre Titanium Fitness Academy:
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>✓ Planes de entrenamiento y horarios flexibles</span>
+                    <span>✓ Precios de membresía, becas deportivas y promociones</span>
+                    <span>✓ Proceso de inscripción y requisitos de salud</span>
+                    <span>✓ Certificación oficial y valoración médica gratuita</span>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Tarjeta Flotante con Formulario -->
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+                    
+                    <h3 class="form-card-title">
+                        Solicita informes
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+                        <!-- 1. Nombre -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre" class="form-control-input">
+                        </div>
+
+                        <!-- 2. Apellido -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_apellido" name="apellido" required placeholder="Apellido" class="form-control-input">
+                        </div>
+
+                        <!-- 3. Correo -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="email" id="info_email" name="email" required placeholder="Correo electrónico" class="form-control-input">
+                        </div>
+
+                        <!-- 4. Teléfono -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="tel" id="info_telefono" name="telefono" required placeholder="Teléfono o WhatsApp" class="form-control-input">
+                        </div>
+
+                        <!-- 5. Procedencia / Ocupación -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_procedencia" name="escuela_procedencia" placeholder="Gimnasio o deporte previo (opcional)" class="form-control-input">
+                        </div>
+
+                        <!-- 6. Nivel de Experiencia -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="nivel" required class="form-control-select">
+                                <option value="">Elige tu nivel de experiencia</option>
+                                <option value="principiante">Principiante / Recreativo</option>
+                                <option value="intermedio">Intermedio / Fitness</option>
+                                <option value="avanzado">Avanzado / Atleta Competitivo</option>
+                            </select>
+                        </div>
+
+                        <!-- 7. Disciplina Deportiva (SIN TURNOS) -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_carrera" name="carrera" required class="form-control-select">
+                                <option value="" disabled selected>Elige tu disciplina de interés</option>
+                                <option value="crossfit">Musculación y CrossFit</option>
+                                <option value="mma">Artes Marciales Mixtas</option>
+                                <option value="yoga">Yoga & Mindfulness</option>
+                                <option value="nutricion">Nutrición Deportiva</option>
+                            </select>
+                        </div>
+
+                        <!-- 8. Fecha Estimada de Inicio -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha estimada de inicio:</label>
+                            <input type="date" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+
+                        <!-- 9. Comentarios -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Escribe tus objetivos o dudas..." class="form-control-textarea"></textarea>
+                        </div>
+
+                        <!-- 10. Checkbox -->
+                        <div class="cbtis-input-group form-group-checkbox">
+                            <input type="checkbox" id="info_terminos" name="terminos" required class="form-checkbox-input">
+                            <label for="info_terminos" class="form-checkbox-label">
+                                Acepto recibir información y el aviso de privacidad de Titanium Academy.
+                            </label>
+                        </div>
+
+                        <!-- 11. Botón Submit -->
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            Solicitar informes
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PATROCINADORES Y MARCAS ASOCIADAS -->
+    <section class="convenios-section">
+        <div class="convenios-container">
+            
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">¿QUIÉNES CONFÍAN EN TITANIUM ACADEMY?</span>
+                <h2>Nuestras Marcas Aliadas</h2>
+                <p>Las principales marcas deportivas y centros de salud confían en nuestros atletas y equipan nuestras instalaciones.</p>
+            </div>
+
+            <!-- LÍNEA 1: Se desplaza hacia la IZQUIERDA -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track marquee-track-top">
+                    <div class="convenio-card">👟 Nike Training</div>
+                    <div class="convenio-card">🏋️ Rogue Fitness</div>
+                    <div class="convenio-card">🥤 Gatorade Institute</div>
+                    <div class="convenio-card">🥊 Venum Fighting</div>
+                    <div class="convenio-card">⌚ Garmin Sports</div>
+                    <div class="convenio-card">💪 Optimum Nutrition</div>
+                    <div class="convenio-card">🔴 Under Armour</div>
+                    <div class="convenio-card">🧘 Lululemon Athletica</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">👟 Nike Training</div>
+                    <div class="convenio-card">🏋️ Rogue Fitness</div>
+                    <div class="convenio-card">🥤 Gatorade Institute</div>
+                    <div class="convenio-card">🥊 Venum Fighting</div>
+                    <div class="convenio-card">⌚ Garmin Sports</div>
+                    <div class="convenio-card">💪 Optimum Nutrition</div>
+                    <div class="convenio-card">🔴 Under Armour</div>
+                    <div class="convenio-card">🧘 Lululemon Athletica</div>
+                </div>
+            </div>
+
+            <!-- LÍNEA 2: Se desplaza hacia la DERECHA -->
+            <div class="marquee-wrapper marquee-wrapper-spacing">
+                <div class="marquee-track marquee-track-bottom">
+                    <div class="convenio-card">🏅 Smart Fit Alliance</div>
+                    <div class="convenio-card">💊 GNC Live Well</div>
+                    <div class="convenio-card">🥤 MuscleTech</div>
+                    <div class="convenio-card">🏥 Red Médica Deportiva</div>
+                    <div class="convenio-card">📱 Strava Partner</div>
+                    <div class="convenio-card">🥊 UFC Gyms</div>
+                    <div class="convenio-card">🍎 NutriSport Lab</div>
+                    <div class="convenio-card">⚙️ Eleiko Equipment</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">🏅 Smart Fit Alliance</div>
+                    <div class="convenio-card">💊 GNC Live Well</div>
+                    <div class="convenio-card">🥤 MuscleTech</div>
+                    <div class="convenio-card">🏥 Red Médica Deportiva</div>
+                    <div class="convenio-card">📱 Strava Partner</div>
+                    <div class="convenio-card">🥊 UFC Gyms</div>
+                    <div class="convenio-card">🍎 NutriSport Lab</div>
+                    <div class="convenio-card">⚙️ Eleiko Equipment</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER CON REDES SOCIALES) -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <p>Titanium Fitness & Sports Academy &copy; 2026</p>
+                <p class="footer-author">Desarrollado por: Estrada Flores Victor Ismael  (3B PRO VESP)</p>
+            </div>
+
+            <!-- Enlaces de Redes Sociales -->
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">f</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">ig</a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon" title="WhatsApp">💬</a>
+                <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube"> ▶</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
